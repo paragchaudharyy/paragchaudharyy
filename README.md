@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Parag Chaudhary — Builder, Speaker, Community Builder">
+<img src="./assets/dark banner 1st time.svg" width="100%" alt="Parag Chaudhary — Builder, Speaker, Community Builder">
 
 <br><br>
 
