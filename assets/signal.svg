@@ -1,0 +1,19 @@
+<svg width="1200" height="170" viewBox="0 0 1200 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="170" rx="20" fill="#0D1117"/>
+<rect x="1" y="1" width="1198" height="168" rx="19" stroke="#30363D"/>
+<line x1="300" y1="28" x2="300" y2="142" stroke="#30363D"/>
+<line x1="600" y1="28" x2="600" y2="142" stroke="#30363D"/>
+<line x1="900" y1="28" x2="900" y2="142" stroke="#30363D"/>
+<text x="45" y="58" fill="#8B949E" font-family="Arial" font-size="13" letter-spacing="2">RECOGNITION</text>
+<text x="45" y="101" fill="#F0F6FC" font-family="Arial" font-size="25" font-weight="700">TOP 10</text>
+<text x="45" y="126" fill="#8B949E" font-family="Arial" font-size="14">S.A. @ Google</text>
+<text x="345" y="58" fill="#8B949E" font-family="Arial" font-size="13" letter-spacing="2">COMMUNITY</text>
+<text x="345" y="101" fill="#F0F6FC" font-family="Arial" font-size="25" font-weight="700">1,500+</text>
+<text x="345" y="126" fill="#8B949E" font-family="Arial" font-size="14">4XIOM members</text>
+<text x="645" y="58" fill="#8B949E" font-family="Arial" font-size="13" letter-spacing="2">REACH</text>
+<text x="645" y="101" fill="#F0F6FC" font-family="Arial" font-size="25" font-weight="700">300K+</text>
+<text x="645" y="126" fill="#8B949E" font-family="Arial" font-size="14">LinkedIn impressions</text>
+<text x="945" y="58" fill="#8B949E" font-family="Arial" font-size="13" letter-spacing="2">HACKATHONS</text>
+<text x="945" y="101" fill="#F0F6FC" font-family="Arial" font-size="25" font-weight="700">3×</text>
+<text x="945" y="126" fill="#8B949E" font-family="Arial" font-size="14">Winner · Mentor · Judge</text>
+</svg>
