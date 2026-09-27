@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate GitHub Visuals
 
 on:
   schedule:
@@ -20,14 +20,22 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg?palette=github-light&color_snake=0891B2&color_dots=#ebedf0,#a5b4fc,#818cf8,#6366f1,#0891B2
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=10B981&color_dots=#2d3343,#4b5563,#7C3AED,#A78BFA,#22D3EE
+            dist/github-snake.svg?palette=github-light&color_snake=0891B2&color_dots=%23ebedf0,%23ddd6fe,%23a78bfa,%237c3aed,%230891b2
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=10B981&color_dots=%232d3343,%234b5563,%237c3aed,%23a78bfa,%2322d3ee
 
-      - name: Push to output branch
+      - name: Generate activity graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: ${{ github.repository_owner }}
+          options: bg_color=0A101F&border_color=26344A&color=D7E3F0&title_color=22D3EE&line=A78BFA&point=22D3EE&area_color=111B30&area=true&hide_border=false&radius=12&custom_title=PARAG.CHAUDHARY%20—%20ACTIVITY%20SIGNAL&days=90&height=360&grid=true
+          output_path: dist/activity-graph.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish GitHub visuals
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
-          commit_message: "Update snake animation [skip ci]"
+          commit_message: "Update GitHub visuals [skip ci]"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
