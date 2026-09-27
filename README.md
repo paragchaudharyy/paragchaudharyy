@@ -37,21 +37,27 @@
 
 <h3>Hey there, I'm Parag Chaudhary 👋</h3>
 
-<p>I'm a <strong>builder, speaker, community builder and designer</strong> working at the intersection of technology, people and experiences.</p>
+<p>I like <strong>building things, bringing people together and turning ideas into something real</strong> — whether that's a product, a community or an experience.</p>
 
-<p>I turn ideas into <strong>products, communities and opportunities</strong> — from AI-powered applications and full-stack experiments to student ecosystems, hackathons and technical events.</p>
+<p>My work sits across <strong>AI, software development, full-stack development, design and community building</strong>, with a strong focus on student ecosystems, experiments and technology-driven initiatives.</p>
 
-<p>Currently building, learning and shipping across <strong>AI, full-stack development, systems, design and community-led technology</strong>.</p>
+<p>These days, I'm <strong>building, learning and shipping</strong> — one project, collaboration and idea at a time.</p>
 
 <br>
 
 <table cellpadding="6" cellspacing="0">
 <tr>
 <td align="center">
-<img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" height="32" alt="Google">
+<img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" height="30" alt="Google">
 </td>
+<td><strong>Top 10 S.A. @ Google</strong></td>
+<td width="16"></td>
 <td>
-<strong>Top 10 S.A. @ Google</strong>
+<img src="https://img.shields.io/badge/Founder-4XIOM-0B0E12?style=for-the-badge&logoColor=FFFFFF" alt="Founder @ 4XIOM">
+</td>
+<td width="8"></td>
+<td>
+<img src="https://img.shields.io/badge/Mentor-Unstop-0B0E12?style=for-the-badge&logoColor=FFFFFF" alt="Mentor @ Unstop">
 </td>
 </tr>
 </table>
@@ -78,19 +84,16 @@
 <p align="center"><sub>THE TOOLS I BUILD WITH</sub></p>
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=html,css,python,js,ts,c,php,react,nextjs,vite,tailwind,flutter&perline=12" height="40" alt="HTML CSS Python JavaScript TypeScript C PHP React Next.js Vite Tailwind Bootstrap">
+<img src="https://skillicons.dev/icons?i=html,css,python,js,ts,c,php,react,nextjs,vite,tailwind,flutter&perline=12" height="40" alt="HTML CSS Python JavaScript TypeScript C PHP React Next.js Vite Tailwind Flutter">
 </p>
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=nodejs,mongodb,fastapi,postgres,mysql,git,github,vscode,figma,canva,vercel,streamlit&perline=12" height="40" alt="Node.js Express MongoDB FastAPI PostgreSQL MySQL Git GitHub VS Code Figma Canva Vercel">
+<img src="https://skillicons.dev/icons?i=nodejs,mongodb,fastapi,postgres,mysql,git,github,vscode,figma,canva,streamlit,flask&perline=12" height="40" alt="Node.js MongoDB FastAPI PostgreSQL MySQL Git GitHub VS Code Figma Canva Streamlit Flask">
 </p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Express-0B0E12?style=flat-square&logo=express&logoColor=FFFFFF" alt="Express.js">&nbsp;
-<img src="https://img.shields.io/badge/MERN-0B0E12?style=flat-square&logo=mongodb&logoColor=47A248" alt="MERN stack">
-</p>
-
-<p align="center">
+<img src="https://img.shields.io/badge/MERN-0B0E12?style=flat-square&logo=mongodb&logoColor=47A248" alt="MERN stack">&nbsp;
 <img src="https://img.shields.io/badge/Generative_AI-0B0E12?style=flat-square&logo=google&logoColor=4285F4" alt="Generative AI">&nbsp;
 <img src="https://img.shields.io/badge/Prompt_Engineering-0B0E12?style=flat-square&logo=openai&logoColor=FFFFFF" alt="Prompt Engineering">&nbsp;
 <img src="https://img.shields.io/badge/OSINT-0B0E12?style=flat-square&logo=protonvpn&logoColor=A78BFA" alt="OSINT">&nbsp;
@@ -153,9 +156,11 @@ A sustainability tool designed to quantify and visualize the environmental footp
 
 <p><strong>TECH</strong></p>
 <p>
+<img src="https://img.shields.io/badge/Flutter-0B0E12?style=flat-square&logo=flutter&logoColor=54C5F8" alt="Flutter">
 <img src="https://img.shields.io/badge/Python-0B0E12?style=flat-square&logo=python&logoColor=FFD43B" alt="Python">
+<img src="https://img.shields.io/badge/PostgreSQL-0B0E12?style=flat-square&logo=postgresql&logoColor=4169E1" alt="PostgreSQL">
+<img src="https://img.shields.io/badge/REST_API-0B0E12?style=flat-square&logo=fastapi&logoColor=23D6FF" alt="REST API">
 <img src="https://img.shields.io/badge/Figma-0B0E12?style=flat-square&logo=figma&logoColor=F24E1E" alt="Figma">
-<img src="https://img.shields.io/badge/Vercel-0B0E12?style=flat-square&logo=vercel&logoColor=FFFFFF" alt="Vercel">
 </p>
 
 </td>
