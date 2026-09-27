@@ -48,19 +48,11 @@
 <table cellpadding="6" cellspacing="0">
 <tr>
 <td align="center">
-<img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" height="28" alt="Google">
+<img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" height="32" alt="Google">
 </td>
-<td><strong>Top 10 Student Ambassador</strong><br><sub>@ Google</sub></td>
-<td width="18"></td>
-<td align="center">
-<img src="./assets/4xiom-logo.png" height="30" alt="4XIOM">
+<td>
+<strong>Top 10 S.A. @ Google</strong>
 </td>
-<td><strong>Founder</strong><br><sub>@4XIOM</sub></td>
-<td width="18"></td>
-<td align="center">
-<img src="https://unstop.com/favicon.ico" height="28" alt="Unstop">
-</td>
-<td><strong>Mentor</strong><br><sub>@ Unstop</sub></td>
 </tr>
 </table>
 
@@ -86,11 +78,16 @@
 <p align="center"><sub>THE TOOLS I BUILD WITH</sub></p>
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=html,css,python,js,ts,c,php,react,nextjs,vite,tailwind,bootstrap&perline=12" height="40" alt="HTML CSS Python JavaScript TypeScript C PHP React Next.js Vite Tailwind Bootstrap">
+<img src="https://skillicons.dev/icons?i=html,css,python,js,ts,c,php,react,nextjs,vite,tailwind,flutter&perline=12" height="40" alt="HTML CSS Python JavaScript TypeScript C PHP React Next.js Vite Tailwind Bootstrap">
 </p>
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,fastapi,postgres,mysql,git,github,vscode,figma,canva,vercel&perline=12" height="40" alt="Node.js Express MongoDB FastAPI PostgreSQL MySQL Git GitHub VS Code Figma Canva Vercel">
+<img src="https://skillicons.dev/icons?i=nodejs,mongodb,fastapi,postgres,mysql,git,github,vscode,figma,canva,vercel,streamlit&perline=12" height="40" alt="Node.js Express MongoDB FastAPI PostgreSQL MySQL Git GitHub VS Code Figma Canva Vercel">
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/Express-0B0E12?style=flat-square&logo=express&logoColor=FFFFFF" alt="Express.js">&nbsp;
+<img src="https://img.shields.io/badge/MERN-0B0E12?style=flat-square&logo=mongodb&logoColor=47A248" alt="MERN stack">
 </p>
 
 <p align="center">
