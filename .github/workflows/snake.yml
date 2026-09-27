@@ -51,21 +51,22 @@ jobs:
             -f query="$(cat build/query.graphql)" \
             > build/contributions.json
 
-      - name: Render premium contribution graph
+      - name: Render clean contribution graph
         shell: bash
         run: |
           python3 - <<'PY'
-          import json, math
+          import json
           from datetime import datetime
           from pathlib import Path
 
-          BG = "#0B1020"
-          GRID = "#202A40"
-          GRID2 = "#293867"
-          TEXT = "#D7E3F0"
-          MUTED = "#71809F"
+          BG = "#0D1117"
+          GRID = "#21262D"
+          GRID2 = "#30363D"
+          TEXT = "#C9D1D9"
+          MUTED = "#6E7681"
           CYAN = "#22D3EE"
           PURPLE = "#7C3AED"
+          PURPLE2 = "#A78BFA"
 
           payload = json.loads(Path("build/contributions.json").read_text())
           weeks = payload["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
@@ -77,79 +78,79 @@ jobs:
           total = sum(counts)
 
           W, H = 1120, 360
-          L, R, T, B = 68, 28, 54, 58
+          L, R, T, B = 58, 26, 48, 54
           PW, PH = W-L-R, H-T-B
 
           def px(i):
               return L + PW * i / max(1, len(points)-1)
-          def py(v):
-              return T + PH - (v / max(1, peak)) * (PH-10)
 
-          def smooth_path(vals):
-              pts = [(px(i), py(v)) for i,v in enumerate(vals)]
-              if not pts: return "", ""
-              parts = [f"M {pts[0][0]:.1f},{pts[0][1]:.1f}"]
-              for i in range(len(pts)-1):
-                  p0 = pts[max(0,i-1)]
-                  p1 = pts[i]
-                  p2 = pts[i+1]
-                  p3 = pts[min(len(pts)-1,i+2)]
+          def py(v):
+              return T + PH - (v / max(1, peak)) * (PH-14)
+
+          xy = [(px(i), py(v)) for i, v in enumerate(counts)]
+          path = []
+          if xy:
+              path.append(f"M {xy[0][0]:.1f},{xy[0][1]:.1f}")
+              for i in range(len(xy)-1):
+                  p0 = xy[max(0,i-1)]
+                  p1 = xy[i]
+                  p2 = xy[i+1]
+                  p3 = xy[min(len(xy)-1,i+2)]
                   c1 = (p1[0] + (p2[0]-p0[0])/6, p1[1] + (p2[1]-p0[1])/6)
                   c2 = (p2[0] - (p3[0]-p1[0])/6, p2[1] - (p3[1]-p1[1])/6)
-                  parts.append(f"C {c1[0]:.1f},{c1[1]:.1f} {c2[0]:.1f},{c2[1]:.1f} {p2[0]:.1f},{p2[1]:.1f}")
-              line = " ".join(parts)
-              area = line + f" L {px(len(pts)-1):.1f},{T+PH:.1f} L {px(0):.1f},{T+PH:.1f} Z"
-              return line, area
-
-          line, area = smooth_path(counts)
+                  path.append(f"C {c1[0]:.1f},{c1[1]:.1f} {c2[0]:.1f},{c2[1]:.1f} {p2[0]:.1f},{p2[1]:.1f}")
+          line = " ".join(path)
 
           out = [
               f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">',
               '<defs>',
               '<linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#7C3AED"/></linearGradient>',
-              '<linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7C3AED" stop-opacity=".32"/><stop offset="100%" stop-color="#22D3EE" stop-opacity=".02"/></linearGradient>',
+              '<linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7C3AED" stop-opacity=".26"/><stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/></linearGradient>',
               '</defs>',
               f'<rect width="{W}" height="{H}" rx="18" fill="{BG}" stroke="{GRID2}"/>',
-              f'<text x="{L}" y="31" fill="{CYAN}" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="700">PARAG.CHAUDHARY — CONTRIBUTION ACTIVITY</text>',
-              f'<text x="{W-R}" y="31" text-anchor="end" fill="{MUTED}" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">LAST 90 DAYS · REAL DATA</text>',
+              f'<text x="{L}" y="29" fill="{CYAN}" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700">PARAG.CHAUDHARY — CONTRIBUTION ACTIVITY</text>',
+              f'<text x="{W-R}" y="29" text-anchor="end" fill="{MUTED}" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">LAST 90 DAYS · REAL DATA</text>'
           ]
+
+          if peak == 0:
+              peak = 1
 
           for i in range(5):
               value = round(peak * i / 4)
               yy = py(value)
-              out.append(f'<line x1="{L}" y1="{yy:.1f}" x2="{W-R}" y2="{yy:.1f}" stroke="{GRID}" stroke-width="1" stroke-dasharray="2 7"/>')
-              out.append(f'<text x="{L-11}" y="{yy+4:.1f}" text-anchor="end" fill="{MUTED}" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">{value}</text>')
+              out.append(f'<line x1="{L}" y1="{yy:.1f}" x2="{W-R}" y2="{yy:.1f}" stroke="{GRID}" stroke-width="1" stroke-dasharray="2 8"/>')
+              out.append(f'<text x="{L-10}" y="{yy+4:.1f}" text-anchor="end" fill="{MUTED}" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">{value}</text>')
 
-          if area:
+          if line:
+              area = f"{line} L {px(len(points)-1):.1f},{T+PH:.1f} L {px(0):.1f},{T+PH:.1f} Z"
               out.append(f'<path d="{area}" fill="url(#area)"/>')
               out.append(f'<path d="{line}" fill="none" stroke="url(#line)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>')
 
-          for i,(day,v) in enumerate(zip(points,counts)):
+          for i, v in enumerate(counts):
               if v > 0:
-                  color = PURPLE if v == peak else CYAN
-                  out.append(f'<circle cx="{px(i):.1f}" cy="{py(v):.1f}" r="4.1" fill="{color}" stroke="{BG}" stroke-width="2"/>')
+                  out.append(f'<circle cx="{px(i):.1f}" cy="{py(v):.1f}" r="4" fill="{PURPLE2 if v < max(counts or [1]) else CYAN}" stroke="{BG}" stroke-width="2"/>')
 
-          for idx in [0, 14, 29, 44, 59, 74, 89]:
+          for idx in [0,14,29,44,59,74,89]:
               if idx < len(points):
                   dt = datetime.strptime(points[idx]["date"], "%Y-%m-%d")
-                  out.append(f'<text x="{px(idx):.1f}" y="{H-34}" text-anchor="middle" fill="{MUTED}" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">{dt.strftime("%b %d")}</text>')
+                  out.append(f'<text x="{px(idx):.1f}" y="{H-30}" text-anchor="middle" fill="{MUTED}" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">{dt.strftime("%b %d")}</text>')
 
-          out.append(f'<text x="{L}" y="{H-12}" fill="{TEXT}" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">Total contributions: {total}</text>')
-          out.append(f'<text x="{W-R}" y="{H-12}" text-anchor="end" fill="{MUTED}" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">Peak day: {peak}</text>')
+          out.append(f'<text x="{L}" y="{H-11}" fill="{TEXT}" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">Total contributions: {total}</text>')
+          out.append(f'<text x="{W-R}" y="{H-11}" text-anchor="end" fill="{MUTED}" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">Peak day: {max(counts) if counts else 0}</text>')
           out.append('</svg>')
 
           Path("dist/activity-graph.svg").write_text("\n".join(out), encoding="utf-8")
           PY
 
-      - name: Generate animated snake
+      - name: Generate animated contribution snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg?palette=github-light&color_snake=%237C3AED&color_dots=%23EEF2F7,%23E0E7FF,%23C4B5FD,%23A78BFA,%2322D3EE
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=%2322D3EE&color_dots=%23131B2E,%23202B45,%235B4BC4,%23A78BFA,%2322D3EE
-            dist/github-snake-light.gif?color_background=%23F7FAFF&color_snake=%237C3AED&color_dots=%23EEF2F7,%23E0E7FF,%23C4B5FD,%23A78BFA,%2322D3EE
-            dist/github-snake-dark.gif?color_background=%230B1020&color_snake=%2322D3EE&color_dots=%23131B2E,%23202B45,%235B4BC4,%23A78BFA,%2322D3EE
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%2322D3EE&color_dots=%2316171C,%2321262D,%23342A66,%236D4AFF,%23A78BFA
+            dist/github-snake-light.gif?color_background=%23FFFFFF&color_snake=%237C3AED&color_dots=%23EBEDF0,%23EDE9FE,%23DDD6FE,%23C4B5FD,%237C3AED
+            dist/github-snake-dark.gif?color_background=%230D1117&color_snake=%2322D3EE&color_dots=%2316171C,%2321262D,%23342A66,%236D4AFF,%23A78BFA
 
       - name: Publish visuals to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
