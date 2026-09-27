@@ -28,7 +28,7 @@
 
 <br>
 
-<h2 align="center" style="font-weight:800;">ABOUT ME</h2>
+<h1 align="center" style="font-weight:800;">ABOUT ME</h1>
 <p align="center"><sub>BUILDER · SPEAKER · COMMUNITY BUILDER · DESIGNER</sub></p>
 
 <table width="92%" align="center" border="2" cellpadding="24" cellspacing="0">
