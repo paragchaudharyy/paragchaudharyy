@@ -53,11 +53,11 @@
 <td><strong>Top 10 S.A. @ Google</strong></td>
 <td width="16"></td>
 <td>
-<img src="https://img.shields.io/badge/Founder-4XIOM-0B0E12?style=for-the-badge&logoColor=FFFFFF" alt="Founder @ 4XIOM">
+<img src="https://img.shields.io/badge/FOUNDER-4XIOM-F59E0B?style=for-the-badge&labelColor=2B1704&color=F59E0B&logoColor=FFFFFF" alt="Founder @ 4XIOM">
 </td>
 <td width="8"></td>
 <td>
-<img src="https://img.shields.io/badge/Mentor-Unstop-0B0E12?style=for-the-badge&logoColor=FFFFFF" alt="Mentor @ Unstop">
+<img src="https://img.shields.io/badge/MENTOR-UNSTOP-2563EB?style=for-the-badge&labelColor=071A33&color=2563EB&logoColor=FFFFFF" alt="Mentor @ Unstop">
 </td>
 </tr>
 </table>
@@ -84,15 +84,19 @@
 <p align="center"><sub>THE TOOLS I BUILD WITH</sub></p>
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=html,css,python,js,ts,c,php,react,nextjs,vite,tailwind,flutter&perline=12" height="40" alt="HTML CSS Python JavaScript TypeScript C PHP React Next.js Vite Tailwind Flutter">
+<img src="https://skillicons.dev/icons?i=html,css,python,js,ts,c,php,react,nextjs,vite&perline=10" height="40" alt="HTML CSS Python JavaScript TypeScript C PHP React Next.js Vite">
 </p>
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=nodejs,mongodb,fastapi,postgres,mysql,git,github,vscode,figma,canva,streamlit,flask&perline=12" height="40" alt="Node.js MongoDB FastAPI PostgreSQL MySQL Git GitHub VS Code Figma Canva Streamlit Flask">
+<img src="https://skillicons.dev/icons?i=tailwind,flutter,nodejs,mongodb,fastapi,postgres,mysql,git,github,vscode&perline=10" height="40" alt="Tailwind CSS Flutter Node.js MongoDB FastAPI PostgreSQL MySQL Git GitHub VS Code">
 </p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Express-0B0E12?style=flat-square&logo=express&logoColor=FFFFFF" alt="Express.js">&nbsp;
+<img src="https://img.shields.io/badge/Figma-0B0E12?style=flat-square&logo=figma&logoColor=F24E1E" alt="Figma">&nbsp;
+<img src="https://img.shields.io/badge/Canva-0B0E12?style=flat-square&logo=canva&logoColor=00C4CC" alt="Canva">&nbsp;
+<img src="https://img.shields.io/badge/Vercel-0B0E12?style=flat-square&logo=vercel&logoColor=FFFFFF" alt="Vercel">&nbsp;
+<img src="https://img.shields.io/badge/Streamlit-0B0E12?style=flat-square&logo=streamlit&logoColor=FF4B4B" alt="Streamlit">&nbsp;
 <img src="https://img.shields.io/badge/MERN-0B0E12?style=flat-square&logo=mongodb&logoColor=47A248" alt="MERN stack">&nbsp;
 <img src="https://img.shields.io/badge/Generative_AI-0B0E12?style=flat-square&logo=google&logoColor=4285F4" alt="Generative AI">&nbsp;
 <img src="https://img.shields.io/badge/Prompt_Engineering-0B0E12?style=flat-square&logo=openai&logoColor=FFFFFF" alt="Prompt Engineering">&nbsp;
