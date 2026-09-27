@@ -32,7 +32,7 @@
 
 <br>
 
-<h2 align="center">ABOUT ME</h2>
+<h2 align="center" style="font-weight:800;">ABOUT ME</h2>
 <p align="center"><sub>BUILDER · SPEAKER · COMMUNITY BUILDER · DESIGNER</sub></p>
 
 <table width="92%" align="center" cellpadding="22">
@@ -49,9 +49,10 @@
 
 <br>
 
-<img src="https://img.shields.io/badge/Top%2010%20S.A.-Google-0B0E12?style=for-the-badge&logo=google&logoColor=FFFFFF" alt="Top 10 Student Ambassador Google">
-<img src="https://img.shields.io/badge/Founder-4XIOM-0B0E12?style=for-the-badge&logo=rocket&logoColor=22D3EE" alt="Founder 4XIOM">
-<img src="https://img.shields.io/badge/Mentor-Unstop-0B0E12?style=for-the-badge&logo=unstop&logoColor=A78BFA" alt="Mentor Unstop">
+<img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" height="26" alt="Google">
+<img src="https://img.shields.io/badge/TOP%2010%20S.A.-Google-0B0E12?style=for-the-badge&logo=google&logoColor=FFFFFF" alt="Top 10 Student Ambassador Google">
+<img src="https://img.shields.io/badge/FOUNDER-4XIOM-0B0E12?style=for-the-badge&logo=rocket&logoColor=22D3EE" alt="Founder 4XIOM">
+<img src="https://img.shields.io/badge/MENTOR-UNSTOP-0B0E12?style=for-the-badge&logo=unstop&logoColor=A78BFA" alt="Mentor Unstop">
 
 </td>
 
@@ -71,75 +72,47 @@
 
 <br>
 
-<h2 align="center">WHAT I BUILD</h2>
-<p align="center"><sub>PRODUCTS · COMMUNITIES · EXPERIENCES · PEOPLE</sub></p>
-
-<table width="92%" align="center" cellpadding="18">
-<tr>
-<td width="50%" valign="top">
-<h3>01 / PRODUCTS</h3>
-<p><strong>Modern web apps, AI tools and experiments.</strong></p>
-</td>
-<td width="50%" valign="top">
-<h3>02 / COMMUNITIES</h3>
-<p><strong>Student ecosystems, partnerships and events.</strong></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3>03 / EXPERIENCES</h3>
-<p><strong>Hackathons, workshops, speaking and design.</strong></p>
-</td>
-<td width="50%" valign="top">
-<h3>04 / PEOPLE</h3>
-<p><strong>Mentoring developers and student builders.</strong></p>
-</td>
-</tr>
-</table>
-
-<br>
-
-<h2 align="center">TECH STACK</h2>
+<h2 align="center" style="font-weight:800;">TECH STACK</h2>
 <p align="center"><sub>THE TOOLS I BUILD WITH</sub></p>
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,js,ts,c,react,nextjs,vite,tailwind,nodejs,fastapi&perline=10" height="42" alt="Python JavaScript TypeScript C React Next.js Vite Tailwind Node.js FastAPI">
+<img src="https://skillicons.dev/icons?i=python,js,ts,c,react,nextjs,vite,tailwind&perline=8" height="38" alt="Python JavaScript TypeScript C React Next.js Vite Tailwind CSS">
 </p>
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=postgres,mysql,git,github,vscode,figma,canva,vercel,streamlit&perline=9" height="42" alt="PostgreSQL MySQL Git GitHub VS Code Figma Canva Vercel Streamlit">
+<img src="https://skillicons.dev/icons?i=nodejs,fastapi,postgres,mysql,git,github,vscode,figma,canva&perline=9" height="38" alt="Node.js FastAPI PostgreSQL MySQL Git GitHub VS Code Figma Canva">
 </p>
-
-<p align="center">
-<img src="https://img.shields.io/badge/Generative_AI-0B0E12?style=flat-square&logo=google&logoColor=4285F4" alt="Generative AI">&nbsp;
-<img src="https://img.shields.io/badge/Prompt_Engineering-0B0E12?style=flat-square&logo=openai&logoColor=FFFFFF" alt="Prompt Engineering">&nbsp;
-<img src="https://img.shields.io/badge/OSINT-0B0E12?style=flat-square&logo=protonvpn&logoColor=A78BFA" alt="OSINT">&nbsp;
-<img src="https://img.shields.io/badge/Digital_Forensics-0B0E12?style=flat-square&logo=kalilinux&logoColor=22D3EE" alt="Digital Forensics">
-</p>
-
 <br>
 
-<h2 align="center">FEATURED BUILDS</h2>
-<p align="center"><sub>SELECTED WORK</sub></p>
+<h2 align="center" style="font-weight:800;">FEATURED BUILDS</h2>
+<p align="center"><sub>SELECTED WORK · PRODUCTS · SYSTEMS · EXPERIMENTS</sub></p>
 
-<table width="92%" align="center" cellpadding="22">
+<table width="92%" align="center" cellpadding="24">
 <tr>
 <td width="50%" valign="top">
 
 <sub>01 / AI · OPTIMIZATION · RAILWAYS</sub>
 
-<h3>TrackSync AI</h3>
-<p>AI-powered block planning for railway operations, combining structured data processing with optimization.</p>
-<img src="https://skillicons.dev/icons?i=react,python,fastapi,postgres&perline=4" height="32" alt="TrackSync AI stack">
+<h2>TrackSync AI</h2>
+<p><strong>Automatic block planning for Indian Railways.</strong><br>
+A data-driven planning system that combines ETL and Bronze → Silver → Gold processing with constraint-based optimization for asset availability.</p>
+
+<p><strong>Stack</strong><br>
+React · TypeScript · Vite · Tailwind CSS<br>
+Python · FastAPI · Pydantic · PostgreSQL<br>
+Google OR-Tools · CP-SAT · REST API · Axios</p>
 
 </td>
 <td width="50%" valign="top">
 
 <sub>02 / CYBERSECURITY · INVESTIGATION</sub>
 
-<h3>TFORCE LABS</h3>
-<p>A cybersecurity investigation training platform built around realistic law-enforcement workflows.</p>
-<img src="https://skillicons.dev/icons?i=nextjs,react,tailwind&perline=3" height="32" alt="TFORCE LABS stack">
+<h2>TFORCE LABS</h2>
+<p><strong>Training & forensics for operational response.</strong><br>
+A cybersecurity investigation training platform built around realistic law-enforcement workflows and forensic response scenarios.</p>
+
+<p><strong>Stack</strong><br>
+Next.js · React · Tailwind CSS · REST APIs</p>
 
 </td>
 </tr>
@@ -149,59 +122,31 @@
 
 <sub>03 / AI · SUSTAINABILITY · LCA</sub>
 
-<h3>EcoMetrix</h3>
-<p>An AI-powered sustainability platform designed to quantify and visualize the environmental footprint of industrial materials.</p>
-<img src="https://skillicons.dev/icons?i=python,figma,vercel&perline=3" height="32" alt="EcoMetrix stack">
+<h2>EcoMetrix</h2>
+<p><strong>AI-powered life-cycle assessment.</strong><br>
+A sustainability tool designed to quantify and visualize the environmental footprint of industrial materials.</p>
+
+<p><strong>Stack</strong><br>
+Python · Figma · Vercel</p>
 
 </td>
 <td width="50%" valign="top">
 
 <sub>04 / PYTHON · NLP · SIMILARITY</sub>
 
-<h3>AI Resume Skill Analyzer</h3>
-<p>Resume-to-role skill matching using TF-IDF, cosine similarity and skill coverage.</p>
-<img src="https://skillicons.dev/icons?i=python,streamlit&perline=2" height="32" alt="AI Resume Skill Analyzer stack">
+<h2>AI Resume Skill Analyzer</h2>
+<p><strong>Resume-to-role skill intelligence.</strong><br>
+Matches resumes against selected roles using TF-IDF, cosine similarity and skill coverage, with actionable skill recommendations.</p>
+
+<p><strong>Stack</strong><br>
+Python · Streamlit · TF-IDF · Cosine Similarity</p>
 
 </td>
 </tr>
 </table>
-
 <br>
 
-<h2 align="center">EXPERIENCE</h2>
-<p align="center"><sub>ORGANIZATIONS · ROLES · IMPACT</sub></p>
-
-<table width="84%" align="center" cellpadding="16">
-<tr>
-<td align="center" width="28%"><strong>GOOGLE</strong></td>
-<td align="center" width="25%"><strong>Top 10 Student Ambassador</strong></td>
-<td align="center" width="47%"><sub>Community, events and developer outreach</sub></td>
-</tr>
-<tr>
-<td align="center"><strong>4XIOM</strong></td>
-<td align="center"><strong>Founder</strong></td>
-<td align="center"><sub>Student technology ecosystem and community building</sub></td>
-</tr>
-<tr>
-<td align="center"><strong>UNSTOP</strong></td>
-<td align="center"><strong>Mentor</strong></td>
-<td align="center"><sub>Student software and career guidance</sub></td>
-</tr>
-<tr>
-<td align="center"><strong>GEEK ROOM JIMS</strong></td>
-<td align="center"><strong>Design Lead</strong></td>
-<td align="center"><sub>Technical branding and developer events</sub></td>
-</tr>
-<tr>
-<td align="center"><strong>GURUGRAM POLICE / GPCSSI</strong></td>
-<td align="center"><strong>Cyber Warrior</strong></td>
-<td align="center"><sub>Cybersecurity training and investigation workflows</sub></td>
-</tr>
-</table>
-
-<br>
-
-<h2 align="center">GITHUB ANALYTICS</h2>
+<h2 align="center" style="font-weight:800;">GITHUB ANALYTICS</h2>
 <p align="center"><sub>STREAK · PROFILE STATS · LANGUAGE MIX</sub></p>
 
 <p align="center">
@@ -221,7 +166,7 @@
 
 <br>
 
-<h2 align="center">CONTRIBUTION ACTIVITY</h2>
+<h2 align="center" style="font-weight:800;">CONTRIBUTION ACTIVITY</h2>
 <p align="center"><sub>REAL GITHUB CONTRIBUTION DATA · LAST 90 DAYS</sub></p>
 
 <p align="center">
@@ -230,7 +175,7 @@
 
 <br>
 
-<h2 align="center">CONTRIBUTION SNAKE</h2>
+<h2 align="center" style="font-weight:800;">CONTRIBUTION SNAKE</h2>
 <p align="center"><sub>REAL CONTRIBUTION GRID · CYAN SNAKE · PURPLE INTENSITY</sub></p>
 
 <p align="center">
@@ -243,20 +188,7 @@
 
 <br>
 
-<h2 align="center">RIGHT NOW</h2>
-<p align="center"><sub>A FEW THINGS ON MY DESK</sub></p>
-
-<table width="78%" align="center" cellpadding="14">
-<tr>
-<td align="center" width="33%"><strong>BUILDING</strong><br><sub>products, communities & experiments</sub></td>
-<td align="center" width="33%"><strong>LEARNING</strong><br><sub>AI, full-stack development & systems</sub></td>
-<td align="center" width="34%"><strong>EXPLORING</strong><br><sub>new ways to make technology more accessible</sub></td>
-</tr>
-</table>
-
-<br>
-
-<h2 align="center">LET'S CONNECT</h2>
+<h2 align="center" style="font-weight:800;">LET'S CONNECT</h2>
 <p align="center"><strong>Open to speaking, hackathons, community partnerships, student initiatives and AI projects.</strong></p>
 
 <p align="center">
