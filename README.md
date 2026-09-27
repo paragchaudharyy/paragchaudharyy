@@ -18,10 +18,6 @@
 
 <br><br>
 
-<a href="https://www.linkedin.com/in/paragchaudharyy"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> 
-<a href="https://instagram.com/parag.chaudharyy"><img src="https://img.shields.io/badge/Instagram-0B0E12?style=for-the-badge&logo=instagram&logoColor=E1306C&labelColor=0B0E12" alt="Instagram"></a> 
-<a href="mailto:paragchaudhary2008@gmail.com"><img src="https://img.shields.io/badge/Email-0B0E12?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0B0E12" alt="Email"></a>
-
 </div>
 
 <br>
@@ -35,7 +31,7 @@
 <h2 align="center" style="font-weight:800;">ABOUT ME</h2>
 <p align="center"><sub>BUILDER · SPEAKER · COMMUNITY BUILDER · DESIGNER</sub></p>
 
-<table width="92%" align="center" cellpadding="22">
+<table width="92%" align="center" border="2" cellpadding="24" cellspacing="0">
 <tr>
 <td width="68%" valign="middle">
 
@@ -49,10 +45,24 @@
 
 <br>
 
-<img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" height="26" alt="Google">
-<img src="https://img.shields.io/badge/TOP%2010%20S.A.-Google-0B0E12?style=for-the-badge&logo=google&logoColor=FFFFFF" alt="Top 10 Student Ambassador Google">
-<img src="https://img.shields.io/badge/FOUNDER-4XIOM-0B0E12?style=for-the-badge&logo=rocket&logoColor=22D3EE" alt="Founder 4XIOM">
-<img src="https://img.shields.io/badge/MENTOR-UNSTOP-0B0E12?style=for-the-badge&logo=unstop&logoColor=A78BFA" alt="Mentor Unstop">
+<table cellpadding="6" cellspacing="0">
+<tr>
+<td align="center">
+<img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" height="28" alt="Google">
+</td>
+<td><strong>Top 10 Student Ambassador</strong><br><sub>@ Google</sub></td>
+<td width="18"></td>
+<td align="center">
+<img src="./assets/4xiom-logo.png" height="30" alt="4XIOM">
+</td>
+<td><strong>Founder</strong><br><sub>@4XIOM</sub></td>
+<td width="18"></td>
+<td align="center">
+<img src="https://unstop.com/favicon.ico" height="28" alt="Unstop">
+</td>
+<td><strong>Mentor</strong><br><sub>@ Unstop</sub></td>
+</tr>
+</table>
 
 </td>
 
@@ -72,47 +82,66 @@
 
 <br>
 
-<h2 align="center" style="font-weight:800;">TECH STACK</h2>
+<h2 align="center">TECH STACK</h2>
 <p align="center"><sub>THE TOOLS I BUILD WITH</sub></p>
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,js,ts,c,react,nextjs,vite,tailwind&perline=8" height="38" alt="Python JavaScript TypeScript C React Next.js Vite Tailwind CSS">
+<img src="https://skillicons.dev/icons?i=html,css,python,js,ts,c,php,react,nextjs,vite,tailwind,bootstrap&perline=12" height="40" alt="HTML CSS Python JavaScript TypeScript C PHP React Next.js Vite Tailwind Bootstrap">
 </p>
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=nodejs,fastapi,postgres,mysql,git,github,vscode,figma,canva&perline=9" height="38" alt="Node.js FastAPI PostgreSQL MySQL Git GitHub VS Code Figma Canva">
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,fastapi,postgres,mysql,git,github,vscode,figma,canva,vercel&perline=12" height="40" alt="Node.js Express MongoDB FastAPI PostgreSQL MySQL Git GitHub VS Code Figma Canva Vercel">
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/Generative_AI-0B0E12?style=flat-square&logo=google&logoColor=4285F4" alt="Generative AI">&nbsp;
+<img src="https://img.shields.io/badge/Prompt_Engineering-0B0E12?style=flat-square&logo=openai&logoColor=FFFFFF" alt="Prompt Engineering">&nbsp;
+<img src="https://img.shields.io/badge/OSINT-0B0E12?style=flat-square&logo=protonvpn&logoColor=A78BFA" alt="OSINT">&nbsp;
+<img src="https://img.shields.io/badge/Digital_Forensics-0B0E12?style=flat-square&logo=kalilinux&logoColor=22D3EE" alt="Digital Forensics">
 </p>
 <br>
 
-<h2 align="center" style="font-weight:800;">FEATURED BUILDS</h2>
+<h2 align="center">FEATURED BUILDS</h2>
 <p align="center"><sub>SELECTED WORK · PRODUCTS · SYSTEMS · EXPERIMENTS</sub></p>
 
-<table width="92%" align="center" cellpadding="24">
+<table width="92%" align="center" cellpadding="22" cellspacing="0" border="2">
 <tr>
 <td width="50%" valign="top">
 
-<sub>01 / AI · OPTIMIZATION · RAILWAYS</sub>
-
+<p><strong>01 / AI · OPTIMIZATION · RAILWAYS</strong></p>
 <h2>TrackSync AI</h2>
 <p><strong>Automatic block planning for Indian Railways.</strong><br>
 A data-driven planning system that combines ETL and Bronze → Silver → Gold processing with constraint-based optimization for asset availability.</p>
 
-<p><strong>Stack</strong><br>
-React · TypeScript · Vite · Tailwind CSS<br>
-Python · FastAPI · Pydantic · PostgreSQL<br>
-Google OR-Tools · CP-SAT · REST API · Axios</p>
+<p><strong>TECH</strong></p>
+<p>
+<img src="https://img.shields.io/badge/React-0B0E12?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
+<img src="https://img.shields.io/badge/TypeScript-0B0E12?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript">
+<img src="https://img.shields.io/badge/Vite-0B0E12?style=flat-square&logo=vite&logoColor=646CFF" alt="Vite">
+<img src="https://img.shields.io/badge/Tailwind-0B0E12?style=flat-square&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind CSS">
+<img src="https://img.shields.io/badge/Python-0B0E12?style=flat-square&logo=python&logoColor=FFD43B" alt="Python">
+<img src="https://img.shields.io/badge/FastAPI-0B0E12?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI">
+<img src="https://img.shields.io/badge/PostgreSQL-0B0E12?style=flat-square&logo=postgresql&logoColor=4169E1" alt="PostgreSQL">
+<img src="https://img.shields.io/badge/OR--Tools-0B0E12?style=flat-square&logo=google&logoColor=FFFFFF" alt="Google OR-Tools">
+</p>
+<p><strong>CP-SAT · REST API · Axios · Pydantic</strong></p>
 
 </td>
+
 <td width="50%" valign="top">
 
-<sub>02 / CYBERSECURITY · INVESTIGATION</sub>
-
+<p><strong>02 / CYBERSECURITY · INVESTIGATION</strong></p>
 <h2>TFORCE LABS</h2>
 <p><strong>Training & forensics for operational response.</strong><br>
 A cybersecurity investigation training platform built around realistic law-enforcement workflows and forensic response scenarios.</p>
 
-<p><strong>Stack</strong><br>
-Next.js · React · Tailwind CSS · REST APIs</p>
+<p><strong>TECH</strong></p>
+<p>
+<img src="https://img.shields.io/badge/Next.js-0B0E12?style=flat-square&logo=nextdotjs&logoColor=FFFFFF" alt="Next.js">
+<img src="https://img.shields.io/badge/React-0B0E12?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
+<img src="https://img.shields.io/badge/Tailwind-0B0E12?style=flat-square&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind CSS">
+<img src="https://img.shields.io/badge/REST-0B0E12?style=flat-square&logo=fastapi&logoColor=23D6FF" alt="REST API">
+</p>
 
 </td>
 </tr>
@@ -120,26 +149,33 @@ Next.js · React · Tailwind CSS · REST APIs</p>
 <tr>
 <td width="50%" valign="top">
 
-<sub>03 / AI · SUSTAINABILITY · LCA</sub>
-
+<p><strong>03 / AI · SUSTAINABILITY · LCA</strong></p>
 <h2>EcoMetrix</h2>
 <p><strong>AI-powered life-cycle assessment.</strong><br>
 A sustainability tool designed to quantify and visualize the environmental footprint of industrial materials.</p>
 
-<p><strong>Stack</strong><br>
-Python · Figma · Vercel</p>
+<p><strong>TECH</strong></p>
+<p>
+<img src="https://img.shields.io/badge/Python-0B0E12?style=flat-square&logo=python&logoColor=FFD43B" alt="Python">
+<img src="https://img.shields.io/badge/Figma-0B0E12?style=flat-square&logo=figma&logoColor=F24E1E" alt="Figma">
+<img src="https://img.shields.io/badge/Vercel-0B0E12?style=flat-square&logo=vercel&logoColor=FFFFFF" alt="Vercel">
+</p>
 
 </td>
+
 <td width="50%" valign="top">
 
-<sub>04 / PYTHON · NLP · SIMILARITY</sub>
-
+<p><strong>04 / PYTHON · NLP · SIMILARITY</strong></p>
 <h2>AI Resume Skill Analyzer</h2>
 <p><strong>Resume-to-role skill intelligence.</strong><br>
 Matches resumes against selected roles using TF-IDF, cosine similarity and skill coverage, with actionable skill recommendations.</p>
 
-<p><strong>Stack</strong><br>
-Python · Streamlit · TF-IDF · Cosine Similarity</p>
+<p><strong>TECH</strong></p>
+<p>
+<img src="https://img.shields.io/badge/Python-0B0E12?style=flat-square&logo=python&logoColor=FFD43B" alt="Python">
+<img src="https://img.shields.io/badge/Streamlit-0B0E12?style=flat-square&logo=streamlit&logoColor=FF4B4B" alt="Streamlit">
+<img src="https://img.shields.io/badge/scikit--learn-0B0E12?style=flat-square&logo=scikitlearn&logoColor=F7931E" alt="scikit-learn">
+</p>
 
 </td>
 </tr>
